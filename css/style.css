@@ -1,0 +1,629 @@
+/******** Start Our Framework ********/  
+* 
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+#scrollTop {
+    width:60px;
+    height:60px;
+    display:none;
+    background-color: #f7600e;
+    color:#fff;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+    position: fixed;
+    right: 15px;
+    font-weight: bold;
+    font-size:25px;
+    bottom: 15px;
+    border-radius: 5%;
+}
+.container 
+{
+    width:1000px;
+    margin: auto;
+}
+.text-center
+{
+    text-align: center;
+}
+.upper
+{
+    text-transform: uppercase;
+}
+.main-color 
+{
+    color: #f7600e;
+}
+.main-background
+{
+    background-color:#f7600e;
+}
+::-webkit-input-placeholder
+{
+    font-size: 14px;
+}
+:-moz-input-placeholder
+{
+    font-size: 14px;
+}
+:-ms-input-placeholder
+{
+    font-size: 14px;
+}
+button , input{
+    outline: none;
+}
+.hidden
+{
+    display: none;
+}
+/******** End Our Framework********/
+
+/*Start Header********/
+.header 
+{
+ background-image: url('../img/cover.jpg');
+ -webkit-background-size:cover;
+ -o-background-size:cover;
+ -moz-background-size:cover;
+ background-size:cover;
+ color:#fff;
+ position: relative;
+}
+.overlay
+{
+    background:rgba(49, 55, 61, .7);
+    width: 100%;
+    height: 100%;
+}
+.header .navbar 
+{
+    overflow: hidden;
+    padding:20px 0 ;
+}
+.header .navbar .logo
+{
+    font-size: 24px;
+}
+.header .navbar .links 
+{
+    float:right;
+}
+.header .navbar .links i
+{
+    margin-left:5px;
+}
+.header .intro 
+{
+    position: absolute;
+}
+.header .intro h1
+{
+    margin: 0;
+    font-weight: 800;
+    font-size: 50px;
+}
+.header .intro p
+{
+    margin: 5px 0 40px;
+    line-height: 1.9;
+    font-size: 20px;
+    color:#fff;
+}
+.header .buttons button 
+{
+    background-color: transparent;
+    padding:10px 0;
+    width:180px;
+    font-size:14px;
+    border:1px solid #909090;
+    margin: 0 8px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.header .buttons button:hover
+{
+    background-color:#f7600e;
+    border:1px solid #f7600e;
+}
+.header .arrow
+{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 100%;;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.header .arrow i
+{
+    border:2px solid #7b7b7b;
+    border-radius:50%;
+    height:40px;
+    width:40px;
+    line-height:33px;
+    cursor: pointer;
+    -webkit-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+}
+.header .arrow i:hover
+{
+    background-color: #f7600e;
+    border:2px solid #f7600e;
+}
+/*End Header********/
+
+/******** Start Features ********/
+.features 
+{
+    padding: 80px 0;
+    overflow: hidden;
+}
+.features .box 
+{
+    width:22%;
+    float: left;
+    margin-right: 4%;
+}
+.features .box i 
+{
+    color:#f7600e;
+    border: 1px solid #f7600e;
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    line-height: 100px;
+    -webkit-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+}
+.features .box i:hover
+{
+    background-color: #f7600e;
+    border: 1px solid #f7600e;
+    color: #fff;
+}
+.features .box h3 
+{
+    text-transform: uppercase;
+    font-weight: normal;
+    color:#505050;
+}
+.features .box p 
+{
+    line-height: 2;
+    color:#888;
+}
+.features .box:last-child 
+{
+    margin-right:0;
+}
+/******** End Features ********/
+
+/******** Start Subscribe ********/
+.subscribe 
+{
+    background-image: url('../img/Subscribe.png');
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.subscribe form 
+{
+    padding: 100px 0;
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+.subscribe form input[type="email"] 
+{
+    height:37px;
+    line-height: 37px;
+    padding: 0 10px;
+    position: relative;
+    width: 380px; 
+    font-size: 20px;
+    border-radius: 5px;
+    top:2px;
+    border: none;
+}
+.subscribe form button
+{
+    padding:10px;
+    width: 200px;
+    font-size: 14px;
+    background-color: #f7600e;
+    border:none;
+    color:#fff;
+    border-radius:5px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/******** End Subscribe ********/
+
+/******** Start Our Work ********/
+.our-work 
+{
+    padding: 50px 0;
+}
+.our-work h2 
+{
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.our-work h2 ~ p
+{
+    line-height: 2;
+    margin:10px 0 40px;
+}
+.our-work .show-more
+{
+    background-color:transparent;
+    border:1px solid #f7600e;
+    width:180px;
+    padding:10px;
+    border-radius: 10px;
+    margin-top:20px;
+    color:#f7600e;
+    -webkit-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+    cursor: pointer;
+}
+.our-work .show-more:hover
+{
+    background-color: #f7600e;
+    border: 1px solid #f7600e;
+    color: #fff;
+}
+.our-work .items-box .item
+{
+    float: left;
+    width: 32%;
+    overflow: hidden;
+    margin-left: 1.33333%;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    position: relative;
+    height:320px;
+    
+}
+.our-work .items-box .item .over 
+{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    background-color: rgba(247,96,14,.9);
+    color:#fff;
+    -webkit-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+    display: none;
+}
+.our-work .items-box .item .over h4
+{
+    font-size:20px;
+    margin-top: 60px;
+    margin-bottom:0;
+}
+.our-work .items-box .item .over p
+{
+    margin-top:10px;
+    margin-bottom: 50px;
+    line-height: 2;
+}
+.our-work .items-box .item:hover .over
+{
+    display: block;
+}
+.our-work .items-box .item .over button 
+{
+    background-color: transparent;
+    border: 1px solid #fff;
+    width:180px;
+    padding:10px;
+    border-radius:10px;
+    color:#fff;
+    -webkit-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+    cursor: pointer;
+}
+.our-work .items-box .item .over button:hover
+{
+    background-color: #fff;
+    border: 1px solid #f7600e;
+    color: #f7600e;
+}
+/******** End Our Work ********/
+
+/******** Start Testimonial ********/
+.testim
+{
+background:url('../img/Testimonials.jpg');
+-webkit-background-size:cover;
+-o-background-size:cover;
+-moz-background-size:cover;
+background-size:cover;
+background-attachment: fixed;
+position: relative;
+}
+.testim  .client
+{
+    padding: 50px 0;
+    color:#fff;
+    font-size:20px;
+}
+.testim  .client img
+{
+    width:100px;
+    border-radius:50%;
+    height:100px;
+}
+.testim  .client p
+{
+    line-height: 2;
+    font-style: italic;
+}
+.testim  .fa-chevron-right, 
+.testim  .fa-chevron-left 
+{
+    position: absolute;
+    top:50%;
+    color:#999;
+    cursor: pointer;
+    -webkit-transition:all .3s ease-in-out;
+    -o-transition:all .3s ease-in-out;
+    -moz-transition:all .3s ease-in-out;
+    transition:all .3s ease-in-out;
+}
+.testim  .fa-chevron-right:hover, 
+.testim  .fa-chevron-left:hover
+{
+    color:#f7600e;
+}
+.testim  .fa-chevron-right 
+{
+    right:15%;
+}
+.testim  .fa-chevron-left 
+{
+    left:15%;
+}
+/******** End Testimonial ********/
+
+/******** Start Our Team ********/
+.our-team
+{
+    padding: 50px 0;
+}
+.our-team h2 
+{
+    font-size: 35px;
+    margin-bottom:0;
+}
+.our-team .main
+{
+    margin: 10px 0 40px;
+    line-height:2;
+    color: #666;
+    font-size: 20px;
+
+}
+.our-team .the-team
+{
+    overflow:hidden;
+}
+
+.our-team .the-team .person
+{
+    float: left;
+    width: 24%;
+    margin-left:1%;   
+    color:#888;
+}
+.our-team .the-team .person:hover
+{
+    color:#555;
+}
+.our-team .the-team .person img 
+{
+    width:240px;
+    height:240px;
+    -webkit-transition:all .4s ease-in-out;
+    -o-transition:all .4s ease-in-out;
+    -moz-transition:all .4s ease-in-out;
+    transition:all .4s ease-in-out;
+
+}
+.our-team .the-team .person:hover img
+{
+    filter: none;
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    filter: gray;
+    filter: grayscale(1);
+    -webkit-filter:grayscale(1);
+    -o-filter:grayscale(1);
+    -moz-filter:grayscale(1);
+}
+.our-team .the-team .person p
+{
+    font-size:15px;
+}
+.our-team .the-team .social-icon i
+{
+    background-color: #9da1a5;
+    width: 30px;
+    height:30px;
+    line-height: 30px;
+    color:#fff;
+    border-radius:50%;
+    cursor: pointer;
+}
+.our-team .the-team .social-icon .fa-facebook:hover
+{
+    background-color: #3b5998;
+}
+.our-team .the-team .social-icon .fa-twitter:hover
+{
+    background-color: #55acee;
+}
+.our-team .the-team .social-icon .fa-google-plus:hover
+{
+    background-color: #dc4e41;
+}
+/******** End Our Team ********/
+
+/******** Start Contact Form ********/
+
+.contact 
+{
+    background-image: url(../img/Subscribe.png);
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+}
+.contact .overlay
+{
+    padding: 50px 0;
+    color:#fff;
+}
+.contact h2
+{
+    font-size: 35px;
+}
+.contact form 
+{
+    width: 700px;
+    margin: 50px auto;
+    text-align: center;
+    overflow: hidden;
+}
+.contact form input[type="text"],
+.contact form input[type="email"]
+{
+    width: 48%;
+    padding: 0 10px;
+    height:40px;
+    line-height:40px;
+    border-radius:10px;
+    border:1px solid #ddd;
+}
+.contact form input[type="email"]
+{
+    float:right;
+}
+.contact form input[type="text"] 
+{
+    float: left;
+}
+.contact form textarea
+{
+    margin-top:20px;
+    width: 100%;
+    padding:10px;
+    height:140px;
+    border-radius:10px;
+    border:1px solid #ddd;
+    outline: none;
+}
+.contact form .info
+{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.contact form .info button
+{
+    float: left;
+    padding:10px;
+    width: 200px;
+    font-size: 14px;
+    background-color: #f7600e;
+    border:none;
+    color:#fff;
+    border-radius:5px;
+    cursor: pointer;
+    -webkit-transition:all .4s ease-in-out;
+    -o-transition:all .4s ease-in-out;
+    -moz-transition:all .4s ease-in-out;
+    transition:all .4s ease-in-out;
+}
+.contact form .info button:hover
+{
+    background-color:#f7500e;
+
+}
+.contact form .info .form-icons
+{
+    float: right;
+}
+.contact form .info .form-icons i
+{
+    background-color: #9da1a5;
+    width: 35px;
+    height:35px;
+    line-height: 35px;
+    color:#fff;
+    border-radius:50%;
+    cursor: pointer;
+}
+.contact form .info .form-icons  .fa-facebook:hover
+{
+    background-color: #3b5998;
+}
+.contact form .info .form-icons  .fa-twitter:hover
+{
+    background-color: #55acee;
+}
+.contact form .info .form-icons  .fa-google-plus:hover
+{
+    background-color: #dc4e41;
+}
+/******** End Contact Form ********/
+
+/******** Start Footer ********/
+.footer
+{
+    background-color: #3b434c;
+    color:#fff;
+    overflow: hidden;
+    padding: 30px 0;
+
+}
+.footer .copyright
+{
+    float:left;
+}
+.footer .design
+{
+    float:right;
+}
+/******** End Footer ********/
